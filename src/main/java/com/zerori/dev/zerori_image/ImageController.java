@@ -14,6 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.Map;
 
+@RequestMapping("/api")
 @RestController
 @RequiredArgsConstructor
 public class ImageController {
